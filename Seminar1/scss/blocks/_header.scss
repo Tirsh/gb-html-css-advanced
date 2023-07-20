@@ -1,0 +1,32 @@
+.header {
+    padding: 18px 0 19px;
+    min-height: 75px;
+    background-color: #222222;
+    &__logo {
+        display: block;
+    }
+    &__content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        gap: 41px;
+    }
+    &__actions  {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__search {
+        display: block;
+    }
+    &__busket {
+        position: relative;
+    }
+    &__menu {
+        width: 159px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

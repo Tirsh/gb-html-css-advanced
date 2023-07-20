@@ -1,0 +1,47 @@
+.cathegories {
+    min-height: 630px;
+    padding: 65px 0 96px 0;
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(3, 360px);
+        gap: 30px;
+        justify-content: center;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 360px;
+        height: 260px;
+        color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        span {
+            color: #F16D7F;
+            font-size: 24px;
+            font-weight: 500;
+        }
+        &:nth-child(1) {
+            background: url("../img/cathegory1.jpg");
+            background-size: 100% 100%;
+        }
+        &:nth-child(2) {
+            background: url('../img/cathegory2.jpg');
+            background-size: 100% 100%;
+        }
+        &:nth-child(3) {
+            background: url('../img/cathegory3.jpg');
+            background-size: 100% 100%;
+        }
+        &_big {
+            width: 1140px;
+            height: 180px;
+            grid-column: span 3;
+            background: url('../img/cathegory-big.jpg');
+            background-size: 100% 100%;
+        }
+    }
+}

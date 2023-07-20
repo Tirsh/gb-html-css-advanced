@@ -1,0 +1,60 @@
+.item {
+    background-color: #F8F8F8;
+    width: 360px;
+    &__img {
+        position: relative;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &:hover .item__img::before {
+        cursor: pointer;
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(58, 56, 56, 0.86);
+        position: absolute;     
+    }
+    &:hover .item__img::after {
+        content: '';
+        display: block;
+        width: 138.614px;
+        height: 43.878px;
+        background: url("../icons/add-to-cart.png");
+        position: absolute; 
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    &:hover{
+        cursor: pointer;    
+    }
+    &__data {
+        padding: 24px 16px;
+    }
+    &__title {
+        color: #000;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    &__desc {
+        margin-top: 16px;
+        color: #5D5D5D;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    &__price {
+        margin-top: 16px;
+        color: #F16D7F;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}

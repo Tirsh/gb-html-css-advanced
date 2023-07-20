@@ -1,0 +1,25 @@
+.socials {
+    display: flex;
+    justify-content: space-between;
+    color: #FBFBFB;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    &__links {
+        width: 148px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__link {
+        cursor: pointer;
+        width: 32px;
+        height: 32px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover {
+            background-color: #F16D7F;
+        }
+    }
+}

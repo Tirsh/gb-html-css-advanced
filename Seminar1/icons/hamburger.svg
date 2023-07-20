@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="8.4666672mm"
+   height="6.0854168mm"
+   viewBox="0 0 8.4666672 6.0854168"
+   version="1.1"
+   id="svg237"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="hamburger.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview239"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="12.033912"
+     inkscape:cx="31.078838"
+     inkscape:cy="18.697162"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs234" />
+  <g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-1.7989248,-2.9895492)">
+    <path
+       d="m 1.7989248,9.0749662 v -0.711729 h 8.4666672 v 0.711729 z m 0,-2.709333 v -0.71173 h 8.4666672 v 0.71173 z m 0,-2.664355 v -0.711729 h 8.4666672 v 0.711729 z"
+       fill="#e8e8e8"
+       id="path85"
+       style="stroke-width:0.264583" />
+  </g>
+</svg>

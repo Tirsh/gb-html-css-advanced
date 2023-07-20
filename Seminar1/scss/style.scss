@@ -1,0 +1,39 @@
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap');
+
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lato, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/top';
+@import 'blocks/menu';
+@import 'blocks/cathegories';
+@import 'blocks/items';
+@import 'blocks/advantages';
+@import 'blocks/bottom';
+@import 'blocks/subscribe';
+@import 'blocks/item';
+@import 'blocks/reviews';
+@import 'blocks/footer';
+@import 'blocks/socials';
+@import 'blocks/alive';
+@import 'base/media';
