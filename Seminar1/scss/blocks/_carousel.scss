@@ -1,0 +1,33 @@
+.carousel {
+    height: 777px;
+    background-color: #F7F7F7;
+    position: relative;
+    border: 1px solid #EAEAEA;
+    &__inner {
+        margin: 0 auto;
+    }  
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        border: none;
+        width: 47px;
+        height: 47px;
+        background: rgba(42, 42, 42, 0.15);
+        text-align: center;
+        padding-top: 8px;
+    }
+    .next {
+        left: auto;
+        right: 0;
+    }
+    .tns-item {
+        img {
+            display: block;
+            margin: 0  auto;
+        }
+    }
+
+}

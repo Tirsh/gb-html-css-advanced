@@ -1,0 +1,16 @@
+.short-top {
+    min-height: 148px;
+    background-color: #F8F3F4;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__title {
+        color: #F16D7F;
+        font-size: 24px;
+        font-weight: 400;
+    }
+}
