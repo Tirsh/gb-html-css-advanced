@@ -1,5 +1,6 @@
 @import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css');
 
 @import 'base/variables';
 @import 'base/mixins';
@@ -36,4 +37,14 @@ a {
 @import 'blocks/footer';
 @import 'blocks/socials';
 @import 'blocks/alive';
+
+// product block
+
+@import 'blocks/short-top';
+@import 'blocks/breadcrumbs';
+@import 'blocks/carousel';
+@import 'blocks/product-description';
+
+
+
 @import 'base/media';

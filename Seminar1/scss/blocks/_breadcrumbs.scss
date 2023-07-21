@@ -1,0 +1,18 @@
+.breadcrumbs {
+    &__item {
+        display: inline-block;
+        vertical-align: top;
+        color: #636363;
+        font-size: 14px;
+        font-weight: 300;
+        margin-right: 5px;
+        &:not(:last-child)::after {
+            content: "/";
+            margin-left: 5px;
+        }
+        &:last-child {
+            color: #F16D7F;
+            font-weight: 700;
+        }
+    }
+}
