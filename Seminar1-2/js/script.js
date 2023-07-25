@@ -13,8 +13,3 @@ if(document.querySelector('.carousel__inner') != null){
         slider.goTo('next'); 
     });
 }
-const hamburger = document.querySelector('.header__hamburger');
-const mainMenu = document.querySelector('.menu');
-hamburger.addEventListener('click', function(){
-    mainMenu.classList.toggle('active');
-});
