@@ -1,0 +1,106 @@
+.sorting {
+    position: relative;
+    min-height: 75px;
+    padding: 51px 0 7px;
+    &__filter {
+        position: absolute;
+        top: -13px;
+        width: 360px;
+        padding: 16px 13px;
+        z-index: 99;
+        &-summary {
+            display: flex;
+            align-items: center;
+            gap: 11px;
+        }
+        &-heading {
+            color: #000;
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        &[open] {
+            background-color: #FFF;
+            box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+            .sorting__filter-heading {
+                color: #EF5B70;
+            }
+            path {
+                fill: #EF5B70;
+            }
+        }
+        &-content {
+            margin-top: 16px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 18px;
+        }
+        &-item {
+            display: flex;
+            &-heading {
+                width: 327px;
+                height: 37px;
+                color: #6F6E6E;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 37px;
+                padding-left: 11px;
+                text-transform: uppercase;
+                border-bottom: 1px solid #EBEBEB;
+                border-left: 5px solid #EF5B70;
+            }
+            &-link {
+                color: #6F6E6E;
+                font-size: 14px;
+                font-weight: 400;
+                padding-left: 16px;
+            }           
+        }
+        &-link-box {
+            margin-top: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 11px;
+        }
+    }
+    &__panel {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        gap: 28px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 99;
+        &-item {
+            position: relative;
+            &-heading {
+                color: #6F6E6E;
+                padding-right: 10px;
+                font-size: 14px;
+                font-weight: 400;
+                text-transform: uppercase;
+            }
+            &-box {
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                gap: 6px;
+                top: 20px;
+                left: -9px;
+                width: 79px;
+                padding: 9px 9px 12px;
+                background: #FFF;
+                box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
+            }
+            &-check {
+                color: #6F6E6E;
+                font-size: 14px;
+                font-weight: 400;
+                display: flex;
+                align-items: center;
+                gap: 9px;
+            }
+        }
+    }
+}

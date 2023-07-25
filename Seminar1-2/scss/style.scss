@@ -19,7 +19,23 @@ a {
     text-decoration: none;
 }
 
+li {
+    list-style-type: none;
+}
+
+summary {
+    display: block;
+    &-webkit-details-marker {
+        display: none;
+    }
+}
+
+.box-content {
+    overflow: hidden;
+}
+
 .container {
+    position: relative;
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -44,6 +60,10 @@ a {
 @import 'blocks/breadcrumbs';
 @import 'blocks/carousel';
 @import 'blocks/product-description';
+
+// sorting block
+
+@import 'blocks/sorting';
 
 
 
