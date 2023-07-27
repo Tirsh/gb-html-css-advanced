@@ -51,13 +51,18 @@
                 display: flex;
                 align-items: center;
                 gap: 24px;
-                span {
-                    text-align: center;
-                    line-height: 22px;
-                    width: 44px;
-                    height: 25px;
-                    border: 1px solid #EAEAEA;
-                    color: $card-values-font-color;
+                &-form {
+                    input {
+                        text-align: center;
+                        line-height: 22px;
+                        width: 44px;
+                        height: 25px;
+                        border: 1px solid #EAEAEA;
+                        color: $card-values-font-color;
+                        &:focus {
+                            outline:none;
+                        }
+                    }
                 }
             }
         }
@@ -66,6 +71,9 @@
         }
         &-close {
             padding: 28px 22px 0 0;
+            &-wrapper{
+
+            }
         }
     }
 
@@ -95,6 +103,28 @@
             color: #222;
             font-size: 16px;
             font-weight: 300;
+            text-transform: uppercase;
+        }
+        input {
+            padding-left: 17px;
+            padding-right: 17px;
+            width: 360px;
+            height: 45px;
+            color: #B1B1B1;
+            font-size: 13px;
+            font-weight: 300;
+            &::placeholder {
+                color: #222;
+            }
+        }
+        button {
+            width: 102px;
+            height: 35px;
+            color: #4A4A4A;
+            background-color: #fff;
+            font-size: 11px;
+            font-weight: 300;
+            text-transform: uppercase;
         }
     }
     &__checkout {
@@ -110,6 +140,7 @@
             color: #4A4A4A;
             font-size: 11px;
             font-weight: 400;
+            text-transform: uppercase;;
             span {
                 padding-left: 25px;
             }
@@ -119,6 +150,7 @@
             color: #222;
             font-size: 16px;
             font-weight: 300;
+            text-transform: uppercase;
             span {
                 padding-left: 35px;
                 color: #F16D7F;
@@ -138,6 +170,7 @@
             height: 50px;
             background-color: #F16D7F;
             border: none;
+            text-transform: uppercase;
         }
     }
 }
