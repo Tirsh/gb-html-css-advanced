@@ -1,0 +1,14 @@
+.registration {
+    padding-top: 64px;
+    padding-bottom: 96px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__form {
+        width: 360px;
+    }
+    &__loyalty {
+        width: 640px;
+    }
+}

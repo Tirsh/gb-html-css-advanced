@@ -1,10 +1,7 @@
 .form {
-    &__box {
-        margin-top: 20px;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
+    display: flex;
+    flex-direction: column;
+    gap: 20px;    
     &__title {
         color: #222;
         font-size: 16px;
@@ -33,5 +30,40 @@
         font-weight: 300;
         text-transform: uppercase;
         border: 1px solid #A4A4A4;
+        cursor: pointer;
+        &_reg {
+            width: 167px;
+            height: 50px;
+            background-color: #F16D7F;
+            color: #FFF;
+            font-family: Lato;
+            font-size: 14px;
+            font-weight: 400;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            border: none;
+        }
+    }
+    &__label {
+        color: #222;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    &__checkboxes {
+        height: 40px;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+    &__radio {
+        display: flex;
+        gap: 10px;
+    }
+    &__warning {
+        color: #B1B1B1;
+        font-size: 13px;
+        font-weight: 300;
     }
 }
