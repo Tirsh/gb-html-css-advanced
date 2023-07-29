@@ -1,0 +1,34 @@
+.loyalty {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #000;
+    font-size: 24px;
+    font-weight: 300;
+    &__title {
+        font-size: 24px;
+        font-weight: 300;
+        text-transform: capitalize;
+    }
+    &__advantages {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    &__advantage {
+        padding-left: 43px;
+        position: relative;
+        &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 20px;
+            height: 16px;
+            background-image: url(../icons/reg_advantages.svg);
+        }
+    }
+
+}
