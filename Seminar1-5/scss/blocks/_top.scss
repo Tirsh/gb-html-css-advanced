@@ -1,19 +1,19 @@
 .top {
-    min-height: 764px;
     background-color: #F1E4E6;
     position: relative;
     &__content {
         position: relative;
         display: flex;
         justify-content: space-between;
+        gap: 64px;
     }
     &__img {
-        position: absolute;
-        transform: translateX(-230px);
+        object-fit: contain;
+        width: 50%;
     }
     &__title{
+        width: 50%;
         width: 410px;
-        margin: 230px 90px 0 0;
         display: flex;
         gap: 16px;
         align-items: center;

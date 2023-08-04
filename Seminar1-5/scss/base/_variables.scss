@@ -1,3 +1,10 @@
-$min-width: 1140px;
-$menu-position: calc(50vw - $min-width / 2);
-$card-values-font-color: #6F6E6E;
+// css vars
+:root {
+    --min-width: 1140px;
+    --menu-position: calc(50vw - --min-width / 2);
+}
+
+// scss vars::
+
+$additional-font-color: #6F6E6E;
+$main-color: #F16D7F;;

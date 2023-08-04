@@ -1,0 +1,28 @@
+.pagination {
+    margin: 40px auto 0;
+    width: 283px;
+    height: 43px;
+    border: 1px solid #EBEBEB;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 18px;
+    &__items {
+        display: flex;
+        justify-content: center;
+        gap: 18px;
+    }
+    &__item {
+        color: #C4C4C4;
+        font-size: 16px;
+        font-weight: 300;
+        &_last{
+            position: relative;
+            &::before {
+                content: '.....';  
+                left: -17px;
+                position: absolute;    
+            }      
+        }
+    }
+}
