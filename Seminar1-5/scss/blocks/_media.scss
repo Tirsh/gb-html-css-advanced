@@ -1,0 +1,132 @@
+@media (max-width: 1199px) {
+    :root {
+        --min-width: 960px;
+    }
+    .top {
+        &__content {
+            gap: 40px;
+        }
+    }
+    .sorting {
+        &__panel {
+            left: auto;
+            transform: unset;
+            right: 16px;
+        }
+    }
+    .cathegories {
+        &__item {
+            height: 220px;
+            &_big {
+                height: 140px;
+            }
+        }
+    }
+    .advantages {
+        &__item {
+            width: 310px;
+        }
+    }
+    .cart {
+        &__wrapper {
+            flex-direction: column;
+        }
+        &__main {
+            width: 740px;
+            align-self: center;
+        }
+        &__card {
+            width: 740px;
+        }
+        &__controls {
+            justify-content: center;
+            gap: 64px;
+        }
+        &__information {
+            flex-direction: row;
+            align-items: flex-start;
+            margin-top: 64px;
+            justify-content: space-between;
+            gap: 15px;
+        }
+        &__checkout {
+            margin-top: 55px;
+        }
+    }
+    .registration {
+        &__wrapper {
+            gap: 22px;
+        }
+        &__form {
+            gap: 25px;
+        }
+        &__loyalty {
+            max-width: 560px;
+        }
+    }
+    .carousel {
+        height: 624px;
+        .tns-item {
+            img {
+                display: block;
+                margin: 0  auto;
+                width: 466px;
+                height: 565px;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    :root {
+        --min-width: 736px;
+    }
+
+    .cathegories {
+        padding-bottom: 20px;
+        padding-bottom: 154px;
+        &__item {
+            height: 168px;
+            &_big {
+                height: 116px;
+            }
+        }
+    }
+    .items {
+        &__grid {
+            gap: 16px;
+        }
+    }
+    .advantages {
+        padding-top: 48px;
+        padding-bottom: 64px;
+        &__items {
+            flex-direction: column;
+            align-items: center;
+            gap: 48px;
+        }
+        &__item {
+            width: 360px;
+        }
+    }
+    .bottom {
+        padding-top: 64px;
+        padding-bottom: 140px;
+        &__content {
+            flex-direction: column;
+            align-items: center;
+            gap: 48px;
+        }
+    }
+    .registration {
+        &__wrapper {
+            gap: 22px;
+        }
+        &__loyalty {
+            min-width: 357px;
+        }
+    }
+
+
+}

@@ -5,6 +5,11 @@
 @import 'base/variables';
 @import 'base/mixins';
 
+:root {
+    --min-width: 1140px;
+    --menu-position: calc(50vw - var(--min-width) / 2);
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -36,7 +41,7 @@ summary {
 
 .container {
     position: relative;
-    max-width: 1140px;
+    max-width: var(--min-width);
     margin: 0 auto;
 }
 
@@ -53,6 +58,7 @@ summary {
 @import 'blocks/footer';
 @import 'blocks/socials';
 @import 'blocks/alive';
+@import 'blocks/pagination';
 
 // product block
 
@@ -75,4 +81,4 @@ summary {
 @import 'blocks/registration';
 @import 'blocks/loyalty';
 
-@import 'base/media';
+@import 'blocks/media';
