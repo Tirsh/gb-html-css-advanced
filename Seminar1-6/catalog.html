@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +17,7 @@
                         <div class="header__menu">
                             <div class="header__hamburger">
                                 <label for="menu-check"><img src="icons/hamburger.svg" alt="hamburger"></label>
-                                <input type="checkbox" name="" id="menu-check">
+                                <input type="checkbox" name="check" id="menu-check">
                                 <div class="menu">
                                     <div class="menu__title">MENU</div>
                                     <ul class="menu__main">
@@ -72,12 +72,12 @@
                 </div>
             </div>
         </section>
-        <section class="sorting">
+        <div class="sorting">
             <div class="container">
                 <details class="sorting__filter">
                     <summary class="sorting__filter-summary">
                         <span class="sorting__filter-heading">filter</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="10" viewBox="0 0 15 10" fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 10" fill="none">
                         <path d="M0.833333 10H4.16667C4.625 10 5 9.625 5 9.16667C5 8.70833 4.625 8.33333 4.16667 8.33333H0.833333C0.375 8.33333 0 8.70833 0 9.16667C0 9.625 0.375 10 0.833333 10ZM0 0.833333C0 1.29167 0.375 1.66667 0.833333 1.66667H14.1667C14.625 1.66667 15 1.29167 15 0.833333C15 0.375 14.625 0 14.1667 0H0.833333C0.375 0 0 0.375 0 0.833333ZM0.833333 5.83333H9.16667C9.625 5.83333 10 5.45833 10 5C10 4.54167 9.625 4.16667 9.16667 4.16667H0.833333C0.375 4.16667 0 4.54167 0 5C0 5.45833 0.375 5.83333 0.833333 5.83333Z" fill="black"/>
                         </svg>
                     </summary>
@@ -166,20 +166,20 @@
                         </summary>
                         <ul class="sorting__panel-item-box">
                             <li class="sorting__panel-item-check">                        
-                                <input type="checkbox" name="check1" id="check1">
-                                <label for="check1">XS</label>
+                                <input type="checkbox" name="check1" id="check5">
+                                <label for="check5">XS</label>
                             </li>
                             <li class="sorting__panel-item-check">
-                                <input type="checkbox" name="check2" id="check2">
-                                <label for="check2">S</label>
+                                <input type="checkbox" name="check2" id="check6">
+                                <label for="check6">S</label>
                             </li>
                             <li class="sorting__panel-item-check">                        
-                                <input type="checkbox" name="check3" id="check3">
-                                <label for="check3">M</label>
+                                <input type="checkbox" name="check3" id="check7">
+                                <label for="check7">M</label>
                             </li>
                             <li class="sorting__panel-item-check">                        
-                                <input type="checkbox" name="check4" id="check4">
-                                <label for="check4">L</label>
+                                <input type="checkbox" name="check4" id="check8">
+                                <label for="check8">L</label>
                             </li>
                         </ul>
                     </details>
@@ -191,28 +191,28 @@
                         </summary>
                         <ul class="sorting__panel-item-box">
                             <li class="sorting__panel-item-check">                        
-                                <input type="checkbox" name="check1" id="check1">
-                                <label for="check1">XS</label>
+                                <input type="checkbox" name="check1" id="check9">
+                                <label for="check9">XS</label>
                             </li>
                             <li class="sorting__panel-item-check">
-                                <input type="checkbox" name="check2" id="check2">
-                                <label for="check2">S</label>
+                                <input type="checkbox" name="check2" id="check10">
+                                <label for="check10">S</label>
                             </li>
                             <li class="sorting__panel-item-check">                        
-                                <input type="checkbox" name="check3" id="check3">
-                                <label for="check3">M</label>
+                                <input type="checkbox" name="check3" id="check11">
+                                <label for="check11">M</label>
                             </li>
                             <li class="sorting__panel-item-check">                        
-                                <input type="checkbox" name="check4" id="check4">
-                                <label for="check">L</label>
+                                <input type="checkbox" name="check4" id="check12">
+                                <label for="check12">L</label>
                             </li>
                         </ul>
                     </details>
     
                 </div>
             </div>
-        </section>
-        <section class="items">
+        </div>
+        <div class="items">
             <div class="container">
                 <div class="items__grid">
                     <div class="item">
@@ -331,7 +331,7 @@
 
                 </div>
             </div>
-        </section>  
+        </div>  
     
         <section class="bottom">
             <div class="container">
@@ -343,7 +343,7 @@
                         </div>
                     </div>
                     <div class="subscribe">
-                        <div class="subscribe__title">SUBSCRIBE</div>
+                        <h3 class="subscribe__title">SUBSCRIBE</h3>
                         <div class="subscribe__subtitle">FOR OUR NEWLETTER AND PROMOTION</div>
                         <form class="subscribe__form" action="#">
                             <input type="text" placeholder="Enter Your Email">

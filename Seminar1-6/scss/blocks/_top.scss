@@ -2,7 +2,6 @@
     background-color: #F1E4E6;
     position: relative;
     &__content {
-        position: relative;
         display: flex;
         justify-content: space-between;
         gap: 64px;
@@ -19,12 +18,16 @@
         align-items: center;
         h1 {
             color: #222;
-            font-size: 36px;
+            font-size: 32px;
             font-weight: 700;
             line-height: normal;
             text-transform: uppercase;
+            display: grid;
+            grid-template: repeat(2, auto) / repeat(2, auto);
+            column-gap: 6px;
         }
         .fat {
+            grid-column: span 2;
             font-size: 48px;
         }
         .red {

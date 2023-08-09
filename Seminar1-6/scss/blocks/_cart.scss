@@ -6,13 +6,14 @@
     }
     &__product-cards {
         display: grid;
-        grid-template-columns: 652px;
+        grid-template-columns: repeat(1, minmax(310px, 652px));
         grid-auto-rows: auto;
         gap: 40px;
     }
     &__card {
         display: flex;
         justify-content: space-between;
+        gap: 17px;
         box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.3);
         &-info {
             padding-top: 22px;
@@ -83,10 +84,11 @@
         width: 235px;
         height: 50px;
         background-color: #fff;
-        border-color: #A4A4A4;
+        border: 1px solid #a4a4a4;
         color: #000;
         font-size: 14px;
         font-weight: 300;
+        text-transform: uppercase;
     }
     &__information {
         margin-top: 20px;
