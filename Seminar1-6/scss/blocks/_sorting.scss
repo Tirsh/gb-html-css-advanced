@@ -9,6 +9,7 @@
         padding: 16px 13px;
         z-index: 99;
         &-summary {
+            width: 70px;
             display: flex;
             align-items: center;
             gap: 11px;
@@ -18,6 +19,10 @@
             font-size: 14px;
             font-weight: 600;
             text-transform: uppercase;
+            ~ svg {
+                width: 15px;
+                height: 10px;
+            }
         }
         &[open] {
             background-color: #FFF;
